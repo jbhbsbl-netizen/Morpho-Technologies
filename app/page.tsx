@@ -77,18 +77,9 @@ export default function Home() {
 
       {/* Technology Section */}
       <section id="technology" className="py-20 px-6 md:px-12 bg-[#f1f5f9]">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           <div>
-            <Image
-              src="/auv-render.png"
-              alt="Morpho AUV technical render"
-              width={600}
-              height={300}
-              className="rounded-lg shadow-xl"
-            />
-          </div>
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Composite-Based Design</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Composite-Based Design</h2>
             <p className="text-lg mb-6 text-[#475569]">
               Our modular, composite-based AUVs are designed for shallow-water operations where cost-effectiveness and mission flexibility are critical.
             </p>
