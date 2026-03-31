@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ContactForm from './ContactForm';
 
 export default function Home() {
   return (
@@ -164,39 +165,7 @@ export default function Home() {
           <p className="text-lg mb-12 text-[#48cae4]">
             We're seeking partners in the defense and maritime sectors to identify high-value applications for cost-effective, attritable AUV platforms.
           </p>
-          <form className="max-w-2xl mx-auto space-y-6">
-            <div className="grid md:grid-cols-2 gap-6">
-              <input
-                type="text"
-                placeholder="Name"
-                className="px-4 py-3 rounded-lg bg-[#1e3a5f] border border-[#00b4d8] focus:outline-none focus:border-[#48cae4] text-white placeholder-[#475569]"
-                required
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="px-4 py-3 rounded-lg bg-[#1e3a5f] border border-[#00b4d8] focus:outline-none focus:border-[#48cae4] text-white placeholder-[#475569]"
-                required
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Organization"
-              className="w-full px-4 py-3 rounded-lg bg-[#1e3a5f] border border-[#00b4d8] focus:outline-none focus:border-[#48cae4] text-white placeholder-[#475569]"
-            />
-            <textarea
-              placeholder="Message"
-              rows={6}
-              className="w-full px-4 py-3 rounded-lg bg-[#1e3a5f] border border-[#00b4d8] focus:outline-none focus:border-[#48cae4] text-white placeholder-[#475569]"
-              required
-            />
-            <button
-              type="submit"
-              className="bg-[#00b4d8] text-[#0a1628] px-12 py-4 rounded-lg font-semibold text-lg hover:bg-[#48cae4] transition"
-            >
-              Send Message
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </section>
 
