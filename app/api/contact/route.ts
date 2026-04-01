@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
   }
 
   const { error } = await resend.emails.send({
-    from: 'Morpho Technologies Website <noreply@morphotechnologies.com>',
+    from: 'Morpho Technologies Website <onboarding@resend.dev>',
     to: 'Caden@morphotechnologies.com',
     replyTo: email,
     subject: `New Contact: ${name}${organization ? ` (${organization})` : ''}`,
