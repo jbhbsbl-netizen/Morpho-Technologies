@@ -23,13 +23,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-[#48cae4] italic mb-3 text-lg">
-              Dive to new depths, rise to the occasion
+              Overtake, Overwhelm, Under-Sea
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Attritable Composite AUVs at 10-100x Lower Cost
+              Mass Production Attritable AUVs at a Fraction of the Cost
             </h1>
             <p className="text-xl mb-8 text-[#48cae4]">
-              We customize attritable, shallow-water, composite-based autonomous underwater vehicles for defense and maritime operations.
+              Morpho builds modular, shallow-water autonomous underwater vehicles using Large Format Additive Manufacturing — delivering full-scale AUV platforms for under $3,500.
             </p>
             <div className="flex gap-4">
               <a href="#contact" className="bg-[#00b4d8] text-[#0a1628] px-8 py-3 rounded-lg font-semibold hover:bg-[#48cae4] transition">
@@ -55,22 +55,23 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 px-6 md:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">The Cost Advantage</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">The Cost Advantage</h2>
+          <p className="text-center text-[#475569] mb-12 text-lg">Current AUVs are designed for perfection, not scale — resulting in platforms that are too expensive, too slow to iterate, and too maintenance-intensive.</p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-[#00b4d8] mb-4">$3,500</div>
-              <h3 className="text-xl font-semibold mb-2">Our Proof of Concept</h3>
-              <p className="text-[#475569]">Functional composite-based AUV built and tested</p>
+              <div className="text-5xl font-bold text-[#00b4d8] mb-4">&lt;$3,500</div>
+              <h3 className="text-xl font-semibold mb-2">Our Prototype Cost</h3>
+              <p className="text-[#475569]">Full-scale AUV (~6ft long, ~6in diameter) designed, built, and successfully launched</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-[#0a1628] mb-4">$50k-$500k+</div>
+              <div className="text-5xl font-bold text-[#0a1628] mb-4">$100k–$2M</div>
               <h3 className="text-xl font-semibold mb-2">Industry Standard</h3>
-              <p className="text-[#475569]">Existing AUV systems cost 10-100x more</p>
+              <p className="text-[#475569]">Existing AUV systems designed for perfection, not attritable scale deployment</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-[#00b4d8] mb-4">10-100x</div>
-              <h3 className="text-xl font-semibold mb-2">Cost Reduction</h3>
-              <p className="text-[#475569]">Making attritable operations economically viable</p>
+              <div className="text-5xl font-bold text-[#00b4d8] mb-4">8.4% CAGR</div>
+              <h3 className="text-xl font-semibold mb-2">Market Growth</h3>
+              <p className="text-[#475569]">US AUV market projected to grow from $677M to over $1B by 2030</p>
             </div>
           </div>
         </div>
@@ -79,35 +80,47 @@ export default function Home() {
       {/* Technology Section */}
       <section id="technology" className="py-20 px-6 md:px-12 bg-[#f1f5f9]">
         <div className="max-w-4xl mx-auto">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Composite-Based Design</h2>
-            <p className="text-lg mb-6 text-[#475569]">
-              Our modular, composite-based AUVs are designed for shallow-water operations where cost-effectiveness and mission flexibility are critical.
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <span className="text-[#00b4d8] text-2xl">✓</span>
-                <div>
-                  <strong className="block">Attritable Platform</strong>
-                  <span className="text-[#475569]">Affordable enough to risk in contested environments</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-[#00b4d8] text-2xl">✓</span>
-                <div>
-                  <strong className="block">Shallow-Water Optimized</strong>
-                  <span className="text-[#475569]">Purpose-built for littoral zone operations</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-[#00b4d8] text-2xl">✓</span>
-                <div>
-                  <strong className="block">Customizable</strong>
-                  <span className="text-[#475569]">Tailored to specific mission requirements</span>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Built on LFAM</h2>
+          <p className="text-lg mb-10 text-[#475569] text-center">
+            Leveraging Large Format Additive Manufacturing (LFAM), Morpho achieves capabilities no traditional AUV manufacturer can match.
+          </p>
+          <ul className="space-y-4">
+            <li className="flex items-start gap-3">
+              <span className="text-[#00b4d8] text-2xl">✓</span>
+              <div>
+                <strong className="block">Rapid Design Iteration</strong>
+                <span className="text-[#475569]">Iterate on designs in days, not weeks or months</span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#00b4d8] text-2xl">✓</span>
+              <div>
+                <strong className="block">Tool-Less Production</strong>
+                <span className="text-[#475569]">No molds or tooling required — dramatically reducing manufacturing overhead</span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#00b4d8] text-2xl">✓</span>
+              <div>
+                <strong className="block">Modular / Adaptable Architecture</strong>
+                <span className="text-[#475569]">Completely modular platform tailored to specific mission payloads and requirements</span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#00b4d8] text-2xl">✓</span>
+              <div>
+                <strong className="block">Low-Cost / High-Strength Pressure Vessels</strong>
+                <span className="text-[#475569]">Validated structural integrity up to 2 bar (10m depth) with a path to 7 bar (60m)</span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-[#00b4d8] text-2xl">✓</span>
+              <div>
+                <strong className="block">Small Manufacturing Footprint</strong>
+                <span className="text-[#475569]">Producible in a small facility — enabling distributed, forward-deployed manufacturing</span>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -118,27 +131,27 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">Swarm Operations</h3>
-              <p className="text-[#475569]">Deploy multiple units for coordinated reconnaissance and area coverage</p>
+              <p className="text-[#475569]">Deploy multiple attritable units for coordinated reconnaissance and area coverage at a cost that makes massed deployment viable</p>
             </div>
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">ISR Missions</h3>
-              <p className="text-[#475569]">Intelligence, surveillance, and reconnaissance in high-risk zones</p>
+              <p className="text-[#475569]">Intelligence, surveillance, and reconnaissance in high-risk littoral zones where vehicle loss is an acceptable operational tradeoff</p>
             </div>
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">Mine Countermeasures</h3>
-              <p className="text-[#475569]">Cost-effective platforms for detecting and mapping underwater threats</p>
+              <p className="text-[#475569]">Cost-effective platforms for detecting and mapping underwater threats in shallow coastal waters</p>
             </div>
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">Coastal Defense</h3>
-              <p className="text-[#475569]">Shallow-water patrol and monitoring operations</p>
+              <p className="text-[#475569]">Persistent shallow-water patrol and monitoring to secure ports, harbors, and critical maritime infrastructure</p>
             </div>
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">Training & Testing</h3>
-              <p className="text-[#475569]">Affordable targets and test platforms for exercises</p>
+              <p className="text-[#475569]">Affordable target and test platforms for live exercises — expendable by design</p>
             </div>
             <div className="p-6 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
               <h3 className="text-xl font-semibold mb-3">Custom Missions</h3>
-              <p className="text-[#475569]">Tailored solutions for specific operational requirements</p>
+              <p className="text-[#475569]">Modular payload architecture supports tailored configurations for unique operational requirements</p>
             </div>
           </div>
         </div>
@@ -146,14 +159,27 @@ export default function Home() {
 
       {/* Team Section */}
       <section id="team" className="py-20 px-6 md:px-12 bg-[#f1f5f9]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Team</h2>
-          <p className="text-lg mb-8 text-[#475569]">
-            Founded by three students at <strong>Purdue University</strong> with expertise in engineering and business, Morpho Technologies demonstrates that radical cost reduction in defense tech is achievable through innovative materials and design.
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Team</h2>
+          <p className="text-lg mb-12 text-[#475569]">
+            Founded at <strong>Purdue University</strong> by engineers and operators who believe attritable autonomous systems will define the next era of maritime defense.
           </p>
-          <div className="bg-white p-8 rounded-lg shadow-lg inline-block">
-            <p className="text-2xl font-semibold text-[#0a1628] mb-2">Purdue University</p>
-            <p className="text-[#475569]">2 Engineering Students • 1 Business Student</p>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-bold text-[#0a1628] mb-1">Caden Jarausch</h3>
+              <p className="text-[#00b4d8] font-semibold text-sm mb-4">Founder & CEO</p>
+              <p className="text-[#475569] text-sm">Leads company vision, product strategy, and execution. Oversees systems engineering and drives Morpho's transition from prototype to deployable autonomous platform.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-bold text-[#0a1628] mb-1">Matthew Imm</h3>
+              <p className="text-[#00b4d8] font-semibold text-sm mb-4">Founding Engineer</p>
+              <p className="text-[#475569] text-sm">Supports engineering development across mechanical design, prototyping, and system integration.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-bold text-[#0a1628] mb-1">John Hanish</h3>
+              <p className="text-[#00b4d8] font-semibold text-sm mb-4">Head of Business Development</p>
+              <p className="text-[#475569] text-sm">Leads capital strategy and strategic partnerships. Drives investor engagement, grant acquisition, and defense relationships.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -163,7 +189,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Get in Touch</h2>
           <p className="text-lg mb-12 text-[#48cae4]">
-            We're seeking partners in the defense and maritime sectors to identify high-value applications for cost-effective, attritable AUV platforms.
+            We are seeking partners in the defense and maritime sectors to identify high-value applications for cost-effective, attritable AUV platforms.
           </p>
           <ContactForm />
         </div>
@@ -173,7 +199,7 @@ export default function Home() {
       <footer className="bg-[#0a1628] border-t border-[#1e3a5f] text-[#475569] py-8 px-6 md:px-12">
         <div className="max-w-7xl mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} Morpho Technologies. All rights reserved.</p>
-          <p className="mt-2 text-sm">Attritable Composite AUVs for Defense Applications</p>
+          <p className="mt-2 text-sm">Overtake, Overwhelm, Under-Sea</p>
         </div>
       </footer>
     </main>
