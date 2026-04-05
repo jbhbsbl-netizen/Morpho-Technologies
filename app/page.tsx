@@ -31,6 +31,12 @@ export default function Home() {
             <p className="text-xl mb-8 text-[#48cae4]">
               Morpho builds modular, shallow-water autonomous underwater vehicles using Large Format Additive Manufacturing — delivering full-scale AUV platforms for under $3,500.
             </p>
+            <div className="flex flex-wrap gap-3 mb-8 text-sm font-semibold text-[#00b4d8]">
+              <span className="border border-[#00b4d8] px-3 py-1 rounded-full">LFAM Manufactured</span>
+              <span className="border border-[#00b4d8] px-3 py-1 rounded-full">Fully Modular</span>
+              <span className="border border-[#00b4d8] px-3 py-1 rounded-full">Attritable by Design</span>
+              <span className="border border-[#00b4d8] px-3 py-1 rounded-full">Tool-less Production</span>
+            </div>
             <div className="flex gap-4">
               <a href="#contact" className="bg-[#00b4d8] text-[#0a1628] px-8 py-3 rounded-lg font-semibold hover:bg-[#48cae4] transition">
                 Get in Touch
@@ -121,6 +127,9 @@ export default function Home() {
               </div>
             </li>
           </ul>
+          <div className="mt-10 p-6 bg-white rounded-lg border-l-4 border-[#00b4d8]">
+            <p className="text-[#475569]"><strong className="text-[#0a1628]">Patent Pending:</strong> A patent disclosure covering Morpho's design and manufacturing approach has been submitted to Purdue University's Office of Technology Commercialization.</p>
+          </div>
         </div>
       </section>
 
@@ -157,6 +166,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Revenue Model Section */}
+      <section className="py-20 px-6 md:px-12 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Revenue Model</h2>
+          <p className="text-center text-[#475569] mb-12 text-lg">A phased strategy from government-funded R&D to direct platform sales.</p>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="p-8 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
+              <div className="text-[#00b4d8] font-bold text-sm uppercase tracking-wide mb-2">Near-Term</div>
+              <h3 className="text-xl font-bold text-[#0a1628] mb-4">R&D Contracts & Grants</h3>
+              <p className="text-[#475569]">SBIR/STTR programs through DoD, DARPA, and ONR — and CRADA demonstrations with Navy labs — fund continued development and validate the platform in defense-relevant use cases.</p>
+            </div>
+            <div className="p-8 border-2 border-[#f1f5f9] rounded-lg hover:border-[#00b4d8] transition">
+              <div className="text-[#00b4d8] font-bold text-sm uppercase tracking-wide mb-2">Long-Term</div>
+              <h3 className="text-xl font-bold text-[#0a1628] mb-4">Vehicle Sales</h3>
+              <p className="text-[#475569]">Direct platform sales to defense and commercial customers. Modular architecture enables mission-specific configuration at production scale without retooling.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Team Section */}
       <section id="team" className="py-20 px-6 md:px-12 bg-[#f1f5f9]">
         <div className="max-w-5xl mx-auto text-center">
@@ -168,7 +197,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-[#0a1628] mb-1">Caden Jarausch</h3>
               <p className="text-[#00b4d8] font-semibold text-sm mb-4">Founder & CEO</p>
-              <p className="text-[#475569] text-sm">Leads company vision, product strategy, and execution. Oversees systems engineering and drives Morpho's transition from prototype to deployable autonomous platform.</p>
+              <p className="text-[#475569] text-sm">M.S. Mechanical Engineering, Purdue University (2026). Systems architect leading company vision, technical development, and the transition from prototype to production.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-[#0a1628] mb-1">Matthew Imm</h3>
