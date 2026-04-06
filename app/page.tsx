@@ -133,6 +133,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-20 px-6 md:px-12 bg-[#0a1628]">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Prototype Deployment</h2>
+          <p className="text-[#48cae4] mb-10 text-lg">First successful launch with autonomous depth and heading control — November 2025</p>
+          <video
+            controls
+            className="w-full rounded-lg shadow-2xl"
+            poster="/auv-water.png"
+          >
+            <source src="/successful-test-1.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section id="applications" className="py-20 px-6 md:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
